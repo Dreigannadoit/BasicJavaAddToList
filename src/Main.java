@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        userInsertNewData getName = new userInsertNewData();
+        UserInsertNewData getName = new UserInsertNewData();
         UserCreateList  getList = new UserCreateList ();
 
         getList.getUserList();

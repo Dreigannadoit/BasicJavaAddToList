@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Scanner;
 
-public class userInsertNewData {
+public class UserInsertNewData {
     int position = 0;
     boolean askQuestion = true;
 
@@ -11,7 +11,7 @@ public class userInsertNewData {
 
         while (askQuestion) {
             System.out.println("\nEnter Add Name and position" + "(from 1 to " + (names.size() + 1) + ")");
-            System.out.println("use a comma to separate them");
+            System.out.println("Use a comma to separate them");
             System.out.println("(Example: John Doe, 2)");
 
             String inputNew = scanner.nextLine();
