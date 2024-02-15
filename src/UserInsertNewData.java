@@ -10,7 +10,7 @@ public class UserInsertNewData {
         Scanner scanner = new Scanner(System.in);
 
         while (askQuestion) {
-            System.out.println("\nEnter Add Name and position" + "(from 1 to " + (names.size() + 1) + ")");
+            System.out.println("\nEnter Name and position" + "(from 1 to " + (names.size() + 1) + ")");
             System.out.println("Use a comma to separate them");
             System.out.println("(Example: John Doe, 2)");
 
