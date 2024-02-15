@@ -4,6 +4,6 @@
 
 -Type CMD in File Explorer Serach Bar
 
--Run `javac Main.jav` 
+-Run `javac Main.java` 
 
 -Run `java Main`
