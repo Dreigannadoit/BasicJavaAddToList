@@ -8,8 +8,7 @@ public class UserCreateList  {
         System.out.println("Enter a list of personnel names separated by commas:");
         String inputNames = scanner.nextLine();
 
-        // split the input string into an array of names
-        String[] namesArray = SeparateArray.separate(inputNames);
+        String[] namesArray =  inputNames.split(",\\s*");
 
         // display each name in the array
         Collections.addAll(names, namesArray);

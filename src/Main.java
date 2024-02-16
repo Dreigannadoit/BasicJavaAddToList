@@ -10,10 +10,3 @@ public class Main {
     }
 
 }
-
-// Separates the array via comma indicator
-class SeparateArray {
-    public static String[] separate(String input) {
-        return input.split(",\\s*");
-    }
-}
