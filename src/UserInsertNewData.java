@@ -15,7 +15,7 @@ public class UserInsertNewData {
             names.add(2, inputNew);
         } else {
             names.add(inputNew);
-            System.out.println("List to short for third position. New item added to the end of the list");
+            System.out.println("List too short for third position. New item added to the end of the list");
         }
     }
 }
