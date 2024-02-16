@@ -11,6 +11,11 @@ public class UserInsertNewData {
 
         String inputNew = scanner.nextLine();
 
-        names.add(2, inputNew);
+        if(names.size() >= 2){
+            names.add(2, inputNew);
+        } else {
+            names.add(inputNew);
+            System.out.println("List to short for third position. New item added to the end of the list");
+        }
     }
 }

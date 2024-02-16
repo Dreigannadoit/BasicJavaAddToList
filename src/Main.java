@@ -6,7 +6,7 @@ public class Main {
         getList.getUserList();
         getName.getUserData(getList.names);
 
-        System.out.println("New List of Names:: " + getList.names);
+        System.out.println("New List of Names: " + getList.names);
     }
 
 }
