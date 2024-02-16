@@ -7,7 +7,7 @@ public class UserInsertNewData {
     public void getUserData(List<String> names) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\nEnter new Item - Name");
+        System.out.println("\nEnter new Item to 3rd position");
 
         String inputNew = scanner.nextLine();
 
