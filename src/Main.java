@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("New List of Names:: " + getList.names);
     }
+
 }
 
 // Separates the array via comma indicator
